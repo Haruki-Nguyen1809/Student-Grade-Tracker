@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+    padding: 40px;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input, #search-input {
+    padding: 8px 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+#add-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00b894;
+    color: white;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #00a884;
+}
+
+#average-grade {
+    background-color: #dff9fb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #0984e3;
+    display: inline-block;
+}
+
+#average-grade::before {
+    content: "Average Grade: ";
+    font-weight: normal;
+    color: #636e72;
+}
+
+#sort-btn {
+    padding: 8px 16px;
+    border: 2px solid #0984e3;
+    border-radius: 6px;
+    background-color: white;
+    color: #0984e3;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+#sort-btn:hover {
+    background-color: #0984e3;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eaeef0;
+}
+
+th {
+    background-color: #f5f6fa;
+    color: #2d3436;
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+#clear-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d63031;
+    color: white;
+    cursor: pointer;
+}
+
+#clear-btn:hover {
+    background-color: #b33030;
+}
